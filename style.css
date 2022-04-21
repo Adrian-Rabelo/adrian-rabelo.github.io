@@ -1,3 +1,17 @@
 .center {
+    font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 0; bottom: 0; left: 0; right: 0;
+    padding: 0px 20px 25px 25px;
+    width: 230px;
+    height: 140px;
+    border: 2.1px solid rgb(51, 2, 63);
+    border-radius: 20px 20px 20px;
+    position: absolute;
+    margin: auto;
+    box-shadow: 5px 5px 20px rgba(118, 7, 144, 0.2);
+}
+
+.center p {
+    text-align: center;
 }
