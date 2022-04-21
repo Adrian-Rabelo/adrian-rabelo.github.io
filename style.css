@@ -1,7 +1,10 @@
 .center {
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 0; bottom: 0; left: 0; right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 0px 20px 25px 25px;
     width: 230px;
     height: 140px;
@@ -16,16 +19,31 @@
     text-align: center;
 }
 
-.center a {
+.center button {
     margin-left: 40%;
     border-radius: 10px 10px 10px;
     padding: 0px 5px 0px 5px;
     font-size: 14px;
     text-decoration: none;
+
     opacity: 0;
     transition: box-shadow .4s;
+
 }
-.center a:hover {
-    opacity: .8;
+
+.center button:hover {
+    background-color: white;
+    border: none;
+    opacity: .2;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    padding: 5px;
+    width: 50px;
+}
+
+.image {
+    margin-left: 32%;
+    visibility: hidden;
 }
